@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Random Identity",
+  "version": "1.0",
+  "description": "Generate a readable random username and a strong random password.",
+  "browser_action": {
+    "default_title": "Random Identity",
+    "default_popup": "popup.html"
+  }
+}
