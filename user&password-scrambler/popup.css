@@ -1,0 +1,156 @@
+:root {
+  --bg: #f9f9fb;
+  --fg: #111;
+  --label: #333;
+  --input-bg: #ffffff;
+  --input-border: #cccccc;
+  --btn-bg: #ffffff;
+  --btn-hover: #f0f0f0;
+  --btn-border: #cccccc;
+  --primary: #0a84ff;
+  --primary-hover: #0060df;
+  --status: #0a7a0a;
+}
+
+:root.dark {
+  --bg: #1c1b22;
+  --fg: #f0f0f4;
+  --label: #cfcfd6;
+  --input-bg: #2b2a33;
+  --input-border: #52525e;
+  --btn-bg: #2b2a33;
+  --btn-hover: #3a3944;
+  --btn-border: #52525e;
+  --primary: #0a84ff;
+  --primary-hover: #4c9aff;
+  --status: #7ee07e;
+}
+
+body {
+  width: 320px;
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 12px;
+  background: var(--bg);
+  color: var(--fg);
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 16px;
+  margin: 0;
+}
+
+button.theme {
+  background: transparent;
+  border: 1px solid var(--btn-border);
+  color: var(--fg);
+  border-radius: 6px;
+  padding: 2px 8px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+button.theme:hover {
+  background: var(--btn-hover);
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 8px 0 4px;
+  color: var(--label);
+}
+
+.row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid var(--input-border);
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: monospace;
+  background: var(--input-bg);
+  color: var(--fg);
+}
+
+button.copy {
+  padding: 4px 8px;
+  border: 1px solid var(--btn-border);
+  background: var(--btn-bg);
+  color: var(--fg);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button.copy:hover {
+  background: var(--btn-hover);
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 12px;
+  margin: 12px 0;
+  font-size: 12px;
+  color: var(--label);
+}
+
+.options label.span2 {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.options input[type="number"] {
+  width: 60px;
+  padding: 4px 6px;
+  border: 1px solid var(--input-border);
+  border-radius: 6px;
+  background: var(--input-bg);
+  color: var(--fg);
+}
+
+.options input[type="checkbox"] {
+  margin-right: 4px;
+}
+
+button.primary {
+  width: 100%;
+  padding: 8px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button.primary:hover {
+  background: var(--primary-hover);
+}
+
+#status {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--status);
+  min-height: 16px;
+  text-align: center;
+}

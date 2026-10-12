@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Random Identity",
+  "version": "1.0",
+  "description": "Generate a readable random username and a strong random password.",
+  "action": {
+    "default_title": "Random Identity",
+    "default_popup": "popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "random-identity@m0k3.local",
+      "strict_min_version": "115.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
