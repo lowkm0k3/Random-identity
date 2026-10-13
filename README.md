@@ -13,4 +13,4 @@ A lightweight Firefox extension that generates a **readable random username** an
 
 ## Extension
 
-**Firefox Extension** - will soon be on Firefox extension marketplace.
+- **Firefox Extension** - will soon be on Firefox extension marketplace.
