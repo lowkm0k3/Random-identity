@@ -15,4 +15,4 @@ A lightweight Firefox extension that generates a **readable random username** an
 
 1. Clone this repo or download the `.zip`.
    ```bash
-   git clone https://github.com/<your-username>/random-identity.git
+   git clone https://github.com/lowkm0k3/random-identity.git
