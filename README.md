@@ -1,6 +1,6 @@
 # Random Identity
 
-A lightweight Firefox extension that generates a **readable random username** and a **strong random password** in one click — perfect for throwaway signups, testing, or keeping your real identity out of the way.
+A lightweight Firefox extension that generates a **readable random username** and a **strong random password** in one click - perfect for throwaway signups, testing, or keeping your real identity out of the way.
 
 ## Features
 
@@ -13,4 +13,4 @@ A lightweight Firefox extension that generates a **readable random username** an
 
 ## Extension
 
-- **Firefox Extension** - will soon be on Firefox extension marketplace.
+- The Firefox Extension was added get it here: https://addons.mozilla.org/en-US/firefox/addon/random-identity/
